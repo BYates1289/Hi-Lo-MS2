@@ -15,3 +15,13 @@ body{
     color: #fff;
     overflow: hidden;
 }
+.buttons {
+    font-size: 70px;
+    text-shadow: 2px 2px 2px #000;
+}
+.status{
+    font-size: 6em;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px #000;
+    margin: 20px 0 20px 0;
+}
