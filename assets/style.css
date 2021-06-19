@@ -25,3 +25,23 @@ body{
     text-shadow: 3px 3px 3px #000;
     margin: 20px 0 20px 0;
 }
+.last-card {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    right: 30px;
+    transition: .2s ease-in-out;
+}
+.card {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+    transition: .2s ease-in-out;
+    background-color: transparent !important;
+    border: none !important;
+}
