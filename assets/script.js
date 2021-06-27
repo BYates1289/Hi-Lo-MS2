@@ -76,5 +76,4 @@ function nCard() {
     default:
       break;
   }
-console.log(randomCardNumber, newCardNumber);
 }
