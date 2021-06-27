@@ -21,4 +21,19 @@ function loadCards() {
     default:
       break;
   }
-}
+  switch (randomSuit) {
+    case 1:
+      randomSuit = "C";
+      break;
+    case 2:
+      randomSuit = "D";
+      break;
+    case 3:
+      randomSuit = "S";
+      break;
+    case 4:
+      randomSuit = "H";
+      break;
+    default:
+      break;
+  }
