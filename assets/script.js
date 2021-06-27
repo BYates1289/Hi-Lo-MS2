@@ -37,3 +37,6 @@ function loadCards() {
     default:
       break;
   }
+  card.style.backgroundImage = "url(assets/img/cards/" + randomCard + randomSuit + ".png";
+  lastCard.style.backgroundImage = "url(assets/img/cards/red_back.png";
+}
