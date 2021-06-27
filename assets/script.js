@@ -40,3 +40,39 @@ function loadCards() {
   card.style.backgroundImage = "url(assets/img/cards/" + randomCard + randomSuit + ".png";
   lastCard.style.backgroundImage = "url(assets/img/cards/red_back.png";
 }
+function nCard() {
+  newCard = Math.floor(Math.random() * 13 + 2);
+  newSuit = Math.floor(Math.random() * 4 + 1);
+  newCardNumber = newCard;
+  switch (newCard) {
+    case 14:
+      newCard = "A";
+      break;
+    case 13:
+      newCard = "K";
+      break;
+    case 12:
+      newCard = "Q";
+      break;
+    case 11:
+      newCard = "J";
+      break;
+    default:
+      break;
+  }
+  switch (newSuit) {
+    case 1:
+      newSuit = "C";
+      break;
+    case 2:
+      newSuit = "D";
+      break;
+    case 3:
+      newSuit = "S";
+      break;
+    case 4:
+      newSuit = "H";
+      break;
+    default:
+      break;
+  }
