@@ -4,7 +4,7 @@
     font-family: 'Bungee Inline', cursive;    
 }
 body{
-    background-color: darkgreen;
+    background-image: url("./img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
