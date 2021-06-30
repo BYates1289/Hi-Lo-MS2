@@ -77,3 +77,11 @@ function nCard() {
       break;
   }
 }
+function hiOption() {
+  option = "h";
+  nCard();
+}
+function loOption() {
+  option = "l";
+  nCard();
+}
