@@ -9,7 +9,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
     <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
@@ -17,11 +16,10 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Hi-Lo Card Game</title>
 </head>
-<body onload="loadCards()">
-    <a href="/"><img src="assets/img/logo.png" class="mt-3" id="logo" width="100px" height="100px"></a>
+<body onload="loadCards()">    
+    <a href="index.html"><img src="assets/img/logo.png" class="hvr-pulse-grow mt-3" id="logo" width="100px" height="100px"></a>   
 
-    <div class="status" id="status">Hi-Lo Card Game!</div>
- 
+    <div class="status" id="status">Hi-Lo Card Game!</div>   
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -29,28 +27,26 @@
                     <div class="last-card" id="lastCard"></div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="new-card">
-                    <div class="card" id="card"></div>
-                </div>
-            </div>
+        <div class="col-md-6">
+            <div class="new-card">
+                <div class="card" id="card"></div>
+            </div>        
         </div>
-    </div>
-    
+    </div>        
     <div class="container">
         <div class="buttons">
-            <a onclick="loOption()" i class="fas fa-arrow-circle-down"></i></a>
-            <a onclick="hiOption()" i class="fas fa-arrow-circle-up"></i></a>           
-        </div>        
+            <a onclick="loOption()" i class="fas fa-arrow-circle-down hvr-grow"></i></a>
+            <a onclick="hiOption()" i class="fas fa-arrow-circle-up hvr-grow"></i></a>           
+        </div>
     </div>
-        <div class="container">
-        <div class="betting">
+    <div class="container">
+        <div class="betting mt-3">
             <div class="wallet">Wallet Amount: £<span id="cash">1000</span></div>
-            <div class="bet-amount mb-2">Bet Amount: <span id="bet">0</span></div>
+            <div class="bet-amount mb-3">Bet Amount: <span id="bet">0</span></div>
             <div class="chips">
-                <img src="assets/img/chips/20.png" class="bet-twenty" width="150px" height="110px">
-                <img src="assets/img/chips/50.png" class="bet-fifty" width="150px" height="110px">
-                <img src="assets/img/chips/100.png" class="bet-hundred" width="150px" height="110px">
+                <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" width="150px" height="110px">
+                <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" width="150px" height="110px">
+                <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" width="150px" height="110px">
             </div>
         </div>
     </div>
