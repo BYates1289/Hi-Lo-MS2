@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Sancreek', cursive;
+    font-family: 'Bungee Inline', cursive;
+    
 }
 body{
     background-color: darkgreen;
@@ -13,23 +14,24 @@ body{
     align-items: center;
     text-align: center;
     color: #fff;
-    overflow: hidden;
+}
+.previous-card {
+    float: right;
 }
 .buttons {
-    font-size: 70px;
+    font-size: 60px;
     text-shadow: 2px 2px 2px #000;
 }
 .status{
     font-size: 6em;
     font-weight: 700;
-    text-shadow: 3px 3px 3px #000;
-    margin: 20px 0 20px 0;
+    text-shadow: 2px 2px 2px #000;
 }
 .last-card {
     width: 200px;
-    height: 300px;
-    background-size: cover;
+    height: 305px;
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 20px;
     right: 30px;
     transition: .2s ease-in-out;
@@ -38,10 +40,15 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
-    justify-content: center;
     display: inline-block;
     position: relative;
+    justify-content: center;
     transition: .2s ease-in-out;
     background-color: transparent !important;
     border: none !important;
+}
+.betting {
+    font-size: 1.75em;
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 600;
 }

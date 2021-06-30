@@ -40,6 +40,7 @@ function loadCards() {
   card.style.backgroundImage = "url(assets/img/cards/" + randomCard + randomSuit + ".png";
   lastCard.style.backgroundImage = "url(assets/img/cards/red_back.png";
 }
+
 function nCard() {
   newCard = Math.floor(Math.random() * 13 + 2);
   newSuit = Math.floor(Math.random() * 4 + 1);
