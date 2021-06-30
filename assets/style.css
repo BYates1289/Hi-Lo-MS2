@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Bungee Inline', cursive;
-    
+    font-family: 'Bungee Inline', cursive;    
 }
 body{
     background-color: darkgreen;
@@ -15,12 +14,17 @@ body{
     text-align: center;
     color: #fff;
 }
+#logo {
+    width: 125px;
+    height: 125px;
+}
 .previous-card {
     float: right;
 }
 .buttons {
     font-size: 60px;
     text-shadow: 2px 2px 2px #000;
+    margin-top: 0.1em
 }
 .status{
     font-size: 6em;
@@ -28,8 +32,9 @@ body{
     text-shadow: 2px 2px 2px #000;
 }
 .last-card {
-    width: 200px;
-    height: 305px;
+    width: 180px;
+    height: 270px;
+    float: right;     
     background-repeat: no-repeat;
     background-size: cover;
     margin: 20px;
@@ -40,9 +45,11 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
-    display: inline-block;
     position: relative;
     justify-content: center;
+    width: 230px;
+    height: 330px;
+    float: left;
     transition: .2s ease-in-out;
     background-color: transparent !important;
     border: none !important;
