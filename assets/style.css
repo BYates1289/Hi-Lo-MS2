@@ -106,8 +106,8 @@ body{
 }
 @media only screen and (min-width: 281px) and (max-width: 320px) {
     #logo {
-        height: 55px;
-        width: 55px;
+        height: 50px;
+        width: 50px;
     }
     .status {
         font-size: 1.8em;
@@ -130,13 +130,13 @@ body{
         position: fixed;
         bottom: 155px;
         left: 115px;
-        font-size: 45px;
+        font-size: 40px;
     }
     .bet-text {
-        font-size: 0.8em;
+        font-size: 0.7em;
         position: fixed;
         bottom: 85px;
-        left: 38px;
+        left: 50px;
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
         height: 57.2px;
@@ -149,6 +149,48 @@ body{
     }
 }
 @media only screen and (min-width: 321px) and (max-width: 360px) {
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+    .status {
+        font-size: 1.8em;
+    }
+    .card {
+        width: 140px;
+        height: 240px;
+        position: fixed;
+        right: 40px;
+        top: 150px;
+    }
+    .last-card {
+        width: 110px;
+        height: 170px;
+        position: fixed;
+        left: 26px;
+        top: 150px;
+    }
+    .buttons {
+        position: fixed;
+        bottom: 205px;
+        left: 130px;
+        font-size: 45px;
+    }
+    .bet-text {
+        font-size: 0.8em;
+        position: fixed;
+        bottom: 125px;
+        left: 60px;
+    }
+    .bet-twenty, .bet-fifty, .bet-hundred {
+        height: 57.2px;
+        width: 78px;
+    }
+    .chips {
+        position: fixed;
+        bottom: 40px;
+        left: 60px;
+    }
 }
 @media only screen and (min-width: 361px) and (max-width: 375px) {
 }
