@@ -86,14 +86,14 @@ body{
     }
     .buttons {
         position: fixed;
-        bottom: 200px;
+        top: 380px;
         left: 95px;
         font-size: 45px;
     }
     .bet-text {
         font-size: 0.7em;
         position: fixed;
-        bottom: 120px;
+        top: 470px;
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
         height: 52.8px;
@@ -101,7 +101,7 @@ body{
     }
     .chips {
         position: fixed;
-        bottom: 50px;
+        top: 552px;
     }
 }
 @media only screen and (min-width: 281px) and (max-width: 320px) {
@@ -116,26 +116,26 @@ body{
         width: 130px;
         height: 230px;
         position: fixed;
-        right: 25px;
-        top: 150px;
+        right: 30px;
+        top: 140px;
     }
     .last-card {
         width: 100px;
         height: 150px;
         position: fixed;
         left: 16px;
-        top: 150px;
+        top: 140px;
     }
     .buttons {
         position: fixed;
-        bottom: 155px;
+        top: 335px;
         left: 115px;
         font-size: 40px;
     }
     .bet-text {
         font-size: 0.7em;
         position: fixed;
-        bottom: 85px;
+        top: 400px;
         left: 50px;
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
@@ -144,8 +144,8 @@ body{
     }
     .chips {
         position: fixed;
-        bottom: 30px;
-        left: 45px;
+        top: 480px;
+        left: 38px;
     }
 }
 @media only screen and (min-width: 321px) and (max-width: 360px) {
@@ -172,15 +172,15 @@ body{
     }
     .buttons {
         position: fixed;
-        bottom: 205px;
+        top: 360px;
         left: 130px;
         font-size: 45px;
     }
     .bet-text {
-        font-size: 0.8em;
+        font-size: 0.9em;
         position: fixed;
-        bottom: 125px;
-        left: 60px;
+        top: 445px;
+        left: 45px;
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
         height: 57.2px;
@@ -193,6 +193,48 @@ body{
     }
 }
 @media only screen and (min-width: 361px) and (max-width: 375px) {
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+    .status {
+        font-size: 1.8em;
+    }
+    .card {
+        width: 140px;
+        height: 240px;
+        position: fixed;
+        right: 40px;
+        top: 150px;
+    }
+    .last-card {
+        width: 110px;
+        height: 170px;
+        position: fixed;
+        left: 26px;
+        top: 150px;
+    }
+    .buttons {
+        position: fixed;
+        top: 360px;
+        left: 135px;
+        font-size: 45px;
+    }
+    .bet-text {
+        font-size: 0.8em;
+        position: fixed;
+        top: 440px;
+        left: 60px;
+    }
+    .bet-twenty, .bet-fifty, .bet-hundred {
+        height: 66px;
+        width: 90px;
+    }
+    .chips {
+        position: fixed;
+        top: 570px;
+        left: 50px;
+    }
 }
 @media only screen and (min-width: 376px) and (max-width: 414px) {
 }
