@@ -62,7 +62,7 @@ body{
     font-weight: 600;
 }
 /*Media Queries*/
-@media only screen and (min-width: 280px) and (max-width: 281px) {
+@media only screen and (max-width: 280px) {
     #logo {
         height: 50px;
         width: 50px;
@@ -104,7 +104,7 @@ body{
         bottom: 50px;
     }
 }
-@media only screen and (min-width: 320px) and (max-width: 321px) {
+@media only screen and (min-width: 281px) and (max-width: 320px) {
     #logo {
         height: 55px;
         width: 55px;
@@ -148,15 +148,15 @@ body{
         left: 45px;
     }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 321px) and (max-width: 360px) {
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 361px) and (max-width: 375px) {
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 376px) and (max-width: 414px) {
 }
-@media only screen and (max-width: 540px) {
+@media only screen and (min-width: 415px) and (max-width: 540px) {
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 541px) and (max-width: 768px) {
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
 }
