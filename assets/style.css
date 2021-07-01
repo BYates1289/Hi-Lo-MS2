@@ -20,6 +20,10 @@ body{
     width: 125px;
     height: 125px;
 }
+.stack {
+    width: 550px;
+    height: 350px;
+}
 .previous-card {
     float: right;
 }
@@ -34,12 +38,11 @@ body{
     text-shadow: 2px 2px 2px #000;
 }
 .last-card {
-    width: 180px;
-    height: 270px;
+    width: 230px;
+    height: 350px;
     float: right;     
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 20px;
     right: 30px;
     transition: .2s ease-in-out;
 }
@@ -50,7 +53,7 @@ body{
     position: relative;
     justify-content: center;
     width: 230px;
-    height: 330px;
+    height: 350px;
     float: left;
     transition: .2s ease-in-out;
     background-color: transparent !important;
@@ -62,7 +65,7 @@ body{
     font-weight: 600;
 }
 /*Media Queries*/
-@media only screen and (max-width: 280px) {
+/*@media only screen and (max-width: 280px) {
     #logo {
         height: 50px;
         width: 50px;
