@@ -16,16 +16,16 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Hi-Lo Card Game</title>
 </head>
-<body onload="loadCards()">    
+<body class="text-center" onload="loadCards()">    
     <a href="index.html"><img src="assets/img/logo.png" class="hvr-pulse-grow mt-3" id="logo" width="100px" height="100px"></a>   
 
     <div class="status" id="status">Hi-Lo Card Game!</div>   
     <div class="container stack mt-3">
         <div class="row">
-            <div class="col-md-12">
-                    <div class="new-card">
-                        <div class="card" id="card"></div>
-                    </div>
+            <div class="col-md-12 pair">
+                <div class="new-card">
+                    <div class="card" id="card"></div>
+                </div>                    
                 <div class="previous-card">
                     <div class="last-card" id="lastCard"></div>
                 </div>    
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="betting mt-3">
+        <div class="betting">
             <div class="bet-text">
                 <div class="wallet">Wallet Amount: £<span id="cash">1000</span></div>
                 <div class="bet-amount mb-3">Bet Amount: <span id="bet">0</span></div>

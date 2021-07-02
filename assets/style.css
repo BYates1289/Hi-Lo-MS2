@@ -14,7 +14,7 @@ body{
     text-align: center;
     color: #fff;
     height: 100vh;
-    overflow: hidden;
+    width: 100vw;
 }
 #logo {
     width: 125px;
@@ -65,7 +65,7 @@ body{
     font-weight: 600;
 }
 /*Media Queries*/
-/*@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 280px) {
     #logo {
         height: 50px;
         width: 50px;
@@ -74,176 +74,136 @@ body{
         font-size: 1.5em;
     }
     .card {
-        width: 130px;
-        height: 230px;
-        position: fixed;
-        right: 15px;
-        top: 180px;
-    }
-    .last-card {
-        width: 100px;
-        height: 150px;
-        position: fixed;
-        left: 6px;
-        top: 180px;
-    }
-    .buttons {
-        position: fixed;
-        top: 380px;
-        left: 95px;
-        font-size: 45px;
-    }
-    .bet-text {
-        font-size: 0.7em;
-        position: fixed;
-        top: 470px;
-    }
-    .bet-twenty, .bet-fifty, .bet-hundred {
-        height: 52.8px;
-        width: 72px;
-    }
-    .chips {
-        position: fixed;
-        top: 552px;
-    }
-}
-@media only screen and (min-width: 281px) and (max-width: 320px) {
-    #logo {
-        height: 50px;
-        width: 50px;
-    }
-    .status {
-        font-size: 1.8em;
-    }
-    .card {
-        width: 130px;
-        height: 230px;
-        position: fixed;
-        right: 30px;
-        top: 140px;
-    }
-    .last-card {
-        width: 100px;
-        height: 150px;
-        position: fixed;
-        left: 16px;
-        top: 140px;
-    }
-    .buttons {
-        position: fixed;
-        top: 335px;
-        left: 115px;
-        font-size: 40px;
-    }
-    .bet-text {
-        font-size: 0.7em;
-        position: fixed;
-        top: 400px;
-        left: 50px;
-    }
-    .bet-twenty, .bet-fifty, .bet-hundred {
-        height: 57.2px;
-        width: 78px;
-    }
-    .chips {
-        position: fixed;
-        top: 480px;
-        left: 38px;
-    }
-}
-@media only screen and (min-width: 321px) and (max-width: 360px) {
-    #logo {
-        height: 50px;
-        width: 50px;
-    }
-    .status {
-        font-size: 1.8em;
-    }
-    .card {
-        width: 140px;
-        height: 240px;
-        position: fixed;
-        right: 40px;
-        top: 150px;
+        width: 110px;
+        height: 170px;
     }
     .last-card {
         width: 110px;
         height: 170px;
-        position: fixed;
-        left: 26px;
-        top: 150px;
+    }
+    .stack {
+        width: 260px;
+        height: 220px;
+    }
+    .pair {
+        margin-top: 50px;
     }
     .buttons {
-        position: fixed;
-        top: 360px;
-        left: 130px;
+        font-size: 35px;
+    }
+    .bet-text {
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+    .bet-twenty, .bet-fifty, .bet-hundred {
+        height: 57.2px;
+        width: 78px;
+        margin-top: -10px;
+    }
+}
+@media only screen and (min-width: 281px) and (max-width: 375px) {
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+    .status {
+        font-size: 1.5em;
+    }
+    .card {
+        width: 110px;
+        height: 170px;
+    }
+    .last-card {
+        width: 110px;
+        height: 170px;
+    }
+    .stack {
+        width: 280px;
+        height: 220px;
+    }
+    .pair {
+        margin-top: 50px;
+    }
+    .buttons {
+        font-size: 35px;
+    }
+    .bet-text {
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+    .bet-twenty, .bet-fifty, .bet-hundred {
+        height: 57.2px;
+        width: 78px;
+        margin-top: -10px;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width: 540px) {
+    #logo {
+        height: 60px;
+        width: 60px;
+    }
+    .status {
+        font-size: 2em;
+    }
+    .card {
+        width: 110px;
+        height: 170px;
+    }
+    .last-card {
+        width: 110px;
+        height: 170px;
+    }
+    .stack {
+        width: 280px;
+        height: 220px;
+    }
+    .pair {
+        margin-top: 50px;
+    }
+    .buttons {
         font-size: 45px;
     }
     .bet-text {
         font-size: 0.9em;
-        position: fixed;
-        top: 445px;
-        left: 45px;
+        margin-top: 10px;
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
-        height: 57.2px;
-        width: 78px;
-    }
-    .chips {
-        position: fixed;
-        bottom: 40px;
-        left: 60px;
+        height: 60.5px;
+        width: 82.5px;
+        margin-top: -10px;
     }
 }
-@media only screen and (min-width: 361px) and (max-width: 375px) {
+@media only screen and (min-width: 541px) and (max-width: 1024px) {
     #logo {
-        height: 50px;
-        width: 50px;
-    }
-    .status {
-        font-size: 1.8em;
-    }
-    .card {
-        width: 140px;
-        height: 240px;
-        position: fixed;
-        right: 40px;
-        top: 150px;
-    }
-    .last-card {
-        width: 110px;
-        height: 170px;
-        position: fixed;
-        left: 26px;
-        top: 150px;
-    }
-    .buttons {
-        position: fixed;
-        top: 360px;
-        left: 135px;
-        font-size: 45px;
-    }
-    .bet-text {
-        font-size: 0.8em;
-        position: fixed;
-        top: 440px;
-        left: 60px;
-    }
-    .bet-twenty, .bet-fifty, .bet-hundred {
-        height: 66px;
+        height: 90px;
         width: 90px;
     }
-    .chips {
-        position: fixed;
-        top: 570px;
-        left: 50px;
+    .status {
+        font-size: 3em;
     }
-}
-@media only screen and (min-width: 376px) and (max-width: 414px) {
-}
-@media only screen and (min-width: 415px) and (max-width: 540px) {
-}
-@media only screen and (min-width: 541px) and (max-width: 768px) {
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .card {
+        width: 240px;
+        height: 370px;
+    }
+    .last-card {
+        width: 240px;
+        height: 370px;
+    }
+    .stack {
+        width: 550px;
+        height: 450px;
+    }
+    .pair {
+        margin-top: 50px;
+    }
+    .buttons {
+        font-size: 70px;
+        margin-top: -25px;
+    }
+    .bet-text {
+        font-size: 1.3em;
+    }
+    .bet-twenty, .bet-fifty, .bet-hundred {
+        margin-top: -10px;
+    }
 }
