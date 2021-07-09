@@ -1,5 +1,12 @@
 const card = document.getElementById("card");
 const lastCard = document.getElementById("lastCard");
+const status = document.getElementById("status");
+let myMoney = document.getElementById("cash");
+let myBet = document.getElementById("bet");
+let walletAmount = 1000;
+let betAmount = 0;
+let winCount = 0;
+let lossCount = 1;
 
 function loadCards() {
   randomCard = Math.floor(Math.random() * 13 + 2);
@@ -77,7 +84,25 @@ function nCard() {
     default:
       break;
   }
+  console.log(randomCardNumber, newCardNumber);
+  
+   function updateResult(key){
+    if(key == "win"){
+      walletAmount = walletAmount + betAmount;
+      betAmount = 0;
+    }
+    else if(key == "draw"){
+      betAmount = 0;
+    }
+    else if(key == "lose"){
+      walletAmount = walletAmount - betAmount;
+      betAmount = 0;
+    }
+    document.getElementById("cash").innerHTML = walletAmount;
+    document.getElementById("bet").innerHTML = betAmount;
+  }
 }
+
 function hiOption() {
   option = "h";
   nCard();
