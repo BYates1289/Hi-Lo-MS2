@@ -83,9 +83,27 @@ function nCard() {
       break;
     default:
       break;
-  }
-  console.log(randomCardNumber, newCardNumber);
+  }  
   
+  console.log(randomCardNumber, newCardNumber);
+
+  if (option == "h" && newCardNumber > randomCardNumber) {
+    status.innerHTML = "YOU WIN!";
+    updateResult("win");
+    winCount++;
+  } else if (option == "l" && newCardNumber < randomCardNumber) {
+    status.innerHTML = "YOU WIN!";
+    updateResult("win");
+    winCount++;
+  } else if (newCardNumber == randomCardNumber) {
+    status.innerHTML = "DRAW";
+    updateResult("draw");
+  } else {
+    status.innerHTML = "YOU LOST!";
+    updateResult("lose");
+    lossCount++;
+  }
+
    function updateResult(key){
     if(key == "win"){
       walletAmount = walletAmount + betAmount;
