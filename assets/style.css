@@ -35,25 +35,21 @@ body{
     font-weight: 700;
     text-shadow: 2px 2px 2px #000;
 }
-.last-card {
+.prev-card {
     width: 150px;
     height: 229px;
     float: right;     
     background-repeat: no-repeat;
     background-size: cover;
-    right: 30px;
-    transition: .2s ease-in-out;
+    background-image: url("./img/cards/red_back.png");
 }
 .card {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
-    position: relative;
-    justify-content: center;
     width: 150px;
     height: 229px;
     float: left;
-    transition: .2s ease-in-out;
     background-color: transparent !important;
     border: none !important;
 }
@@ -75,7 +71,7 @@ body{
         width: 110px;
         height: 170px;
     }
-    .last-card {
+    .prev-card {
         width: 110px;
         height: 170px;
     }
@@ -111,7 +107,7 @@ body{
         width: 110px;
         height: 170px;
     }
-    .last-card {
+    .prev-card {
         width: 110px;
         height: 170px;
     }
@@ -147,7 +143,7 @@ body{
         width: 110px;
         height: 170px;
     }
-    .last-card {
+    .prev-card {
         width: 110px;
         height: 170px;
     }
@@ -183,7 +179,7 @@ body{
         width: 240px;
         height: 370px;
     }
-    .last-card {
+    .prev-card {
         width: 240px;
         height: 370px;
     }

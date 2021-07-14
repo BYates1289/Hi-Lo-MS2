@@ -1,5 +1,4 @@
 const card = document.getElementById("card");
-const lastCard = document.getElementById("lastCard");
 const status = document.getElementById("status");
 let myMoney = document.getElementById("cash");
 let myBet = document.getElementById("bet");
@@ -45,7 +44,6 @@ function loadCards() {
       break;
   }
   card.style.backgroundImage = "url(assets/img/cards/" + randomCard + randomSuit + ".png";
-  lastCard.style.backgroundImage = "url(assets/img/cards/red_back.png";
 }
 
 function nCard() {
@@ -107,7 +105,7 @@ function nCard() {
     lossCount++;
     clear();
   }
-  
+
   function clear() {
     card.style.backgroundImage = "url(assets/img/cards/" + newCard + newSuit + ".png";
     randomCard = newCard;
