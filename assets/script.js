@@ -91,17 +91,28 @@ function nCard() {
     status.innerHTML = "YOU WIN!";
     updateResult("win");
     winCount++;
+    clear();
   } else if (option == "l" && newCardNumber < randomCardNumber) {
     status.innerHTML = "YOU WIN!";
     updateResult("win");
     winCount++;
+    clear();
   } else if (newCardNumber == randomCardNumber) {
     status.innerHTML = "DRAW";
     updateResult("draw");
+    clear();
   } else {
     status.innerHTML = "YOU LOST!";
     updateResult("lose");
     lossCount++;
+    clear();
+  }
+  
+  function clear() {
+    card.style.backgroundImage = "url(assets/img/cards/" + newCard + newSuit + ".png";
+    randomCard = newCard;
+    randomSuit = newSuit;
+    randomCardNumber = newCardNumber;
   }
 
    function updateResult(key){

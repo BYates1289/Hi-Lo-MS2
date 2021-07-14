@@ -21,14 +21,12 @@ body{
     height: 125px;
 }
 .stack {
-    width: 550px;
-    height: 350px;
+    width: 370px;
+    height: 235px;
 }
-.previous-card {
-    float: right;
-}
+
 .buttons {
-    font-size: 60px;
+    font-size: 55px;
     text-shadow: 2px 2px 2px #000;
     margin-top: 0.1em
 }
@@ -38,8 +36,8 @@ body{
     text-shadow: 2px 2px 2px #000;
 }
 .last-card {
-    width: 230px;
-    height: 350px;
+    width: 150px;
+    height: 229px;
     float: right;     
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,8 +50,8 @@ body{
     background-position-x: center;
     position: relative;
     justify-content: center;
-    width: 230px;
-    height: 350px;
+    width: 150px;
+    height: 229px;
     float: left;
     transition: .2s ease-in-out;
     background-color: transparent !important;
@@ -205,5 +203,13 @@ body{
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
         margin-top: -10px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .status {
+        height: 125px;
+    }
+    .bet-text {
+        margin-top: 10px;
     }
 }
