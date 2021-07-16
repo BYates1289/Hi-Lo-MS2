@@ -114,14 +114,14 @@ function nCard() {
   }
 
    function updateResult(key){
-    if(key == "win"){
+    if(key == "win") {
       walletAmount = walletAmount + betAmount;
       betAmount = 0;
     }
-    else if(key == "draw"){
+    else if(key == "draw") {
       betAmount = 0;
     }
-    else if(key == "lose"){
+    else if(key == "lose") {
       walletAmount = walletAmount - betAmount;
       betAmount = 0;
     }
@@ -137,4 +137,14 @@ function hiOption() {
 function loOption() {
   option = "l";
   nCard();
+}
+
+function updateBet(bet) {
+  if(walletAmount >= betAmount + bet) {
+    betAmount = betAmount + bet;
+    document.getElementById("bet").innerHTML = betAmount;
+  }
+  else{
+    alert("Error! Your total bet is exceeding your wallet amount!");
+  }
 }
