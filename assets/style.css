@@ -69,6 +69,7 @@ body{
     }
     .status {
         font-size: 1.5em;
+        height: 80px;
     }
     .card {
         width: 110px;
@@ -80,7 +81,7 @@ body{
     }
     .stack {
         width: 260px;
-        height: 220px;
+        height: 170px;
     }
     .pair {
         margin-top: 50px;
@@ -105,6 +106,7 @@ body{
     }
     .status {
         font-size: 1.5em;
+        height: 60px;
     }
     .card {
         width: 110px;
@@ -116,7 +118,7 @@ body{
     }
     .stack {
         width: 280px;
-        height: 220px;
+        height: 165px;
     }
     .pair {
         margin-top: 50px;
@@ -141,6 +143,7 @@ body{
     }
     .status {
         font-size: 2em;
+        height: 90px;
     }
     .card {
         width: 110px;
@@ -152,7 +155,7 @@ body{
     }
     .stack {
         width: 280px;
-        height: 220px;
+        height: 180px;
     }
     .pair {
         margin-top: 50px;
@@ -170,32 +173,17 @@ body{
         margin-top: -10px;
     }
 }
-@media only screen and (min-width: 541px) and (max-width: 1024px) {
+@media only screen and (min-width: 541px) and (max-width: 1023px) {
     #logo {
         height: 90px;
         width: 90px;
     }
     .status {
         font-size: 3em;
-    }
-    .card {
-        width: 240px;
-        height: 370px;
-    }
-    .prev-card {
-        width: 240px;
-        height: 370px;
+        height: 120px;
     }
     .stack {
-        width: 550px;
-        height: 450px;
-    }
-    .pair {
-        margin-top: 50px;
-    }
-    .buttons {
-        font-size: 70px;
-        margin-top: -25px;
+        height: 250px;
     }
     .bet-text {
         font-size: 1.3em;
@@ -204,11 +192,25 @@ body{
         margin-top: -10px;
     }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) and (max-width: 1024px) {
     .status {
-        height: 125px;
+        height: 170px;
     }
     .bet-text {
         margin-top: 10px;
+    }
+    .stack {
+        height: 382px;
+        width: 560px;
+    }
+    .card, .prev-card {
+        width: 250px;
+        height: 382px;
+    }
+    .bet-text {
+        font-size: 1.5em;
+    }
+    .buttons {
+        font-size: 5em;
     }
 }

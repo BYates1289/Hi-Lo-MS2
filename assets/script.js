@@ -148,3 +148,19 @@ function updateBet(bet) {
     alert("Error! Your total bet is exceeding your wallet amount!");
   }
 }
+
+function updateResult(key) {
+  if(key == "win"){
+    walletAmount = walletAmount + betAmount;
+    betAmount = 0;
+  }
+  else if(key == "draw") {
+    betAmount = 0;
+  }
+  else if(key == "lose") {
+    walletAmount = walletAmount - betAmount;
+    betAmount = 0;
+  }
+  document.getElementById("cash").innerHTML = walletAmount;
+  document.getElementById("bet").innerHTML = betAmount;
+}
