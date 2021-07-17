@@ -114,14 +114,14 @@ function nCard() {
   }
 
    function updateResult(key){
-    if(key == "win") {
+    if(key == "win"){
       walletAmount = walletAmount + betAmount;
       betAmount = 0;
     }
-    else if(key == "draw") {
+    else if(key == "draw"){
       betAmount = 0;
     }
-    else if(key == "lose") {
+    else if(key == "lose"){
       walletAmount = walletAmount - betAmount;
       betAmount = 0;
     }
@@ -139,28 +139,40 @@ function loOption() {
   nCard();
 }
 
-function updateBet(bet) {
-  if(walletAmount >= betAmount + bet) {
+function updateBet(bet){
+  if(walletAmount >= betAmount + bet){
     betAmount = betAmount + bet;
     document.getElementById("bet").innerHTML = betAmount;
   }
   else{
-    alert("Error! Your total bet is exceeding your wallet amount!");
+    alert("Error! The total bet is exceeding your wallet amount!");
   }
 }
 
-function updateResult(key) {
+function updateResult(key){
   if(key == "win"){
     walletAmount = walletAmount + betAmount;
     betAmount = 0;
   }
-  else if(key == "draw") {
+  else if(key == "draw"){
     betAmount = 0;
   }
-  else if(key == "lose") {
+  else if(key == "lose"){
     walletAmount = walletAmount - betAmount;
     betAmount = 0;
   }
   document.getElementById("cash").innerHTML = walletAmount;
   document.getElementById("bet").innerHTML = betAmount;
 }
+
+document.getElementsByClassName("bet-twenty")[0].addEventListener("click",function(){
+  updateBet(20);
+});
+
+document.getElementsByClassName("bet-fifty")[0].addEventListener("click",function(){
+  updateBet(50);
+});
+
+document.getElementsByClassName("bet-hundred")[0].addEventListener("click",function(){
+  updateBet(100);
+});
