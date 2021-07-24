@@ -1,4 +1,4 @@
-*{
+*, h1 {
     margin: 0;
     padding: 0;
     font-family: 'Croissant One', cursive;
@@ -35,7 +35,7 @@ body{
     border: none;
     border-radius: 10px;
     margin: 5px;
-    background: #abbaab;
+    background: #fff;
 }
 .chips {
     padding: 10px;
