@@ -32,11 +32,18 @@ body{
     height: 60px;
     cursor: pointer;
     color: #000;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    background: #abbaab;
+}
+.chips {
+    padding: 10px;
 }
 .chips img {
     cursor: pointer;
 }
-.status{
+#status {
     font-size: 4em;
     letter-spacing: 0.05em;
     font-weight: 700;
@@ -117,8 +124,8 @@ body{
         margin-top: 10px;
     }
     .bet-twenty, .bet-fifty, .bet-hundred {
-        height: 57.2px;
-        width: 78px;
+        height: 52px;
+        width: 71px;
         margin-top: -10px;
     }
 }

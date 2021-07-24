@@ -11,9 +11,8 @@
     <title>Hi-Lo Card Game</title>
 </head>
 <body class="text-center" onload="loadCards()">    
-    <a href="index.html"><img src="assets/img/logo.png" class="mt-3" id="logo" width="100px" height="100px"></a>   
-
-    <div class="status" id="status">Hi-Lo Card Game!</div>   
+    <a href="index.html"><img src="assets/img/logo.png" class="mt-3" id="logo" alt="cards logo" width="100px" height="100px"></a> 
+    <h1 class="status" id="status">Hi-Lo Card Game!</h1>   
     <div class="container stack mt-3">
         <div class="row">
             <div class="col-md-12">
@@ -29,8 +28,8 @@
     <div class="wrapper">
         <div class="container">
             <div class="buttons">
-                <button onclick="loOption()" i class="hvr-grow">Lower</button>
-                <button onclick="hiOption()" i class="hvr-grow">Higher</button>
+                <button onclick="loOption()" class="lower hvr-grow">Lower</button>
+                <button onclick="hiOption()" class="higher hvr-grow">Higher</button>
                 <button class="repeat-bet hvr-grow">Repeat Bet</button>
             </div>
         </div>
@@ -43,9 +42,9 @@
                 
                 <div id="last-bet" style="display: none;">0</div>
                 <div class="chips">
-                    <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" width="150px" height="110px">
-                    <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" width="150px" height="110px">
-                    <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" width="150px" height="110px">
+                    <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" alt="20 betting chip" width="150px" height="110px">
+                    <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" alt="50 betting chip" width="150px" height="110px">
+                    <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" alt="100 betting chip" width="150px" height="110px">
                 </div>
             </div>
         </div>
