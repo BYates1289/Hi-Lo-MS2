@@ -3,7 +3,8 @@
     padding: 0;
     font-family: 'Croissant One', cursive;
 }
-body{
+body {
+    background-color: #006600;
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,14 +28,8 @@ body{
     width: 370px;
     height: 235px;
 }
-._btn {
-    width: 100px;
-    height: 60px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    margin: 5px;
-    background: #fff;
+.btn-secondary {
+    background-color: #909090 !important;
 }
 .chips {
     padding: 10px;
@@ -112,7 +107,10 @@ h1, #status {
     }
     h1, #status {
         font-size: 1.5em;
-        height: 80px;
+        height: 40px;
+    }
+    .btn-secondary {
+        font-size: 12px;
     }
     .card {
         width: 110px;
@@ -128,11 +126,6 @@ h1, #status {
     }
     .pair {
         margin-top: 50px;
-    }
-    .buttons button {
-        font-size: 11px;
-        width: 60px;
-        height: 40px;
     }
     .bet-text {
         font-size: 0.7em;
@@ -151,7 +144,13 @@ h1, #status {
     }
     .h1, #status {
         font-size: 1.7em;
-        height: 50px;
+        height: 40px;
+    }
+    .btn-secondary {
+        font-size: 14px;
+    }
+    .wrapper {
+        margin-top: 20px;
     }
     .card {
         width: 110px;
@@ -167,11 +166,6 @@ h1, #status {
     }
     .pair {
         margin-top: 50px;
-    }
-    .buttons button {
-        font-size: 12px;
-        width: 65px;
-        height: 45px;
     }
     .bet-text {
         font-size: 0.7em;
@@ -190,7 +184,13 @@ h1, #status {
     }
     h1, #status {
         font-size: 2em;
-        height: 95px;
+        height: 50px;
+    }
+    .btn-secondary {
+        font-size: 16px;
+    }
+    .wrapper {
+        margin-top: 20px;
     }
     .card {
         width: 110px;
@@ -206,11 +206,6 @@ h1, #status {
     }
     .pair {
         margin-top: 50px;
-    }
-    .buttons button {
-        font-size: 12px;
-        width: 65px;
-        height: 45px;
     }
     .bet-text {
         font-size: 0.7em;
@@ -229,7 +224,10 @@ h1, #status {
     }
     .h1, #status {
         font-size: 2em;
-        height: 90px;
+        height: 50px;
+    }
+    .btn-secondary {
+        font-size: 12px;
     }
     .card {
         width: 110px;
@@ -245,11 +243,6 @@ h1, #status {
     }
     .pair {
         margin-top: 50px;
-    }
-    .buttons button {
-        font-size: 13px;
-        width: 70px;
-        height: 50px;
     }
     .bet-text {
         font-size: 0.9em;
@@ -268,7 +261,10 @@ h1, #status {
     }
     h1, #status {
         font-size: 3em;
-        height: 120px;
+        height: 90px;
+    }
+    .btn-secondary {
+        font-size: 18px;
     }
     .stack {
         height: 250px;
@@ -279,18 +275,21 @@ h1, #status {
     .bet-twenty, .bet-fifty, .bet-hundred {
         margin-top: -10px;
     }
-    .buttons button {
-        font-size: 13px;
-        width: 70px;
-        height: 50px;
+    ._btn {
+        font-size: 15px;
+        width: 110px;
+        height: 60px;
     }
 }
 @media only screen and (min-width: 1023px) and (max-width: 1024px) {
     .status {
-        height: 170px;
+        height: 110px;
     }
     .bet-text {
         margin-top: 10px;
+    }
+    .wrapper {
+        margin-top: 40px;
     }
     .stack {
         height: 382px;
@@ -303,12 +302,14 @@ h1, #status {
     .bet-text {
         font-size: 1.5em;
     }
-    .buttons {
-        padding: 5px;
+    .btn-secondary {
+        font-size: 20px;
+        margin: 5px;
     }
-    .buttons button {
-        font-size: 18px;
-        width: 120px;
-        height: 90px;
+}
+@media only screen and (min-width: 1025px) {
+    .btn-secondary {
+        font-size: 20px;
+        margin: 5px;
     }
 }
