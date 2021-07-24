@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Croissant One', cursive;  
+    font-family: 'Croissant One', cursive;
 }
 body{
     background-image: url("./img/bg.jpg");
@@ -13,8 +13,7 @@ body{
     align-items: center;
     text-align: center;
     color: #fff;
-    height: 100vh;
-    overflow-y: hidden;
+    min-height: 100vh;
     -webkit-tap-highlight-color:transparent;
 }
 #logo {
@@ -32,6 +31,7 @@ body{
     width: 100px;
     height: 60px;
     cursor: pointer;
+    color: #000;
 }
 .chips img {
     cursor: pointer;
@@ -69,7 +69,16 @@ body{
     letter-spacing: 0.05em;
     margin-top: 15px;
 }
-
+.fa-sync-alt {
+    margin: 10px 0 10px 0;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 3em;
+    transition: transform .7s ease-in-out;
+}
+.fa-sync-alt:hover {
+    transform: rotate(180deg);
+}
 .swal-text {
     font-family: 'Roboto', sans-serif !important;
 }
@@ -98,8 +107,10 @@ body{
     .pair {
         margin-top: 50px;
     }
-    .buttons {
-        font-size: 35px;
+    .buttons button {
+        font-size: 11px;
+        width: 60px;
+        height: 40px;
     }
     .bet-text {
         font-size: 0.7em;
@@ -111,14 +122,14 @@ body{
         margin-top: -10px;
     }
 }
-@media only screen and (min-width: 281px) and (max-width: 375px) {
+@media only screen and (min-width: 281px) and (max-width: 320px) {
     #logo {
         height: 50px;
         width: 50px;
     }
     .status {
         font-size: 1.5em;
-        height: 60px;
+        height: 50px;
     }
     .card {
         width: 110px;
@@ -135,8 +146,49 @@ body{
     .pair {
         margin-top: 50px;
     }
-    .buttons {
-        font-size: 35px;
+    .buttons button {
+        font-size: 12px;
+        width: 65px;
+        height: 45px;
+    }
+    .bet-text {
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
+    .bet-twenty, .bet-fifty, .bet-hundred {
+        height: 57.2px;
+        width: 78px;
+        margin-top: -10px;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+    .status {
+        font-size: 1.5em;
+        height: 95px;
+    }
+    .card {
+        width: 110px;
+        height: 170px;
+    }
+    .next-card {
+        width: 110px;
+        height: 170px;
+    }
+    .stack {
+        width: 280px;
+        height: 165px;
+    }
+    .pair {
+        margin-top: 50px;
+    }
+    .buttons button {
+        font-size: 12px;
+        width: 65px;
+        height: 45px;
     }
     .bet-text {
         font-size: 0.7em;
@@ -172,8 +224,10 @@ body{
     .pair {
         margin-top: 50px;
     }
-    .buttons {
-        font-size: 45px;
+    .buttons button {
+        font-size: 13px;
+        width: 70px;
+        height: 50px;
     }
     .bet-text {
         font-size: 0.9em;
@@ -203,6 +257,11 @@ body{
     .bet-twenty, .bet-fifty, .bet-hundred {
         margin-top: -10px;
     }
+    .buttons button {
+        font-size: 13px;
+        width: 70px;
+        height: 50px;
+    }
 }
 @media only screen and (min-width: 1023px) and (max-width: 1024px) {
     .status {
@@ -223,6 +282,11 @@ body{
         font-size: 1.5em;
     }
     .buttons {
-        font-size: 5em;
+        padding: 5px;
+    }
+    .buttons button {
+        font-size: 18px;
+        width: 120px;
+        height: 90px;
     }
 }

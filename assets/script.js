@@ -1,7 +1,5 @@
 const card = document.getElementById("card");
 const status = document.getElementById("status");
-let myMoney = document.getElementById("cash");
-let myBet = document.getElementById("bet");
 
 let walletAmount = 1000;
 let betAmount = 0;
@@ -11,6 +9,16 @@ let lossCount = 1;
 
 let cardsArray = [];
 let newCardNumber,newSuit,newCard;
+
+if(!(localStorage.getItem("highScore"))){	
+	// Store
+	localStorage.setItem("highScore", 0);
+} else {
+// Retrieve
+console.log(localStorage.getItem("highScore"));
+//document.getElementById("high_score").innerHTML = localStorage.getItem("highScore");
+}
+
 
 function fillCardsArray() {
 cardsArray[0]= "2C";
@@ -120,11 +128,15 @@ function nCard() {
 	} else {
 	console.log(cardsArray.length);
 	
-    $(".buttons").replaceWith("<a href='index.html'><i class='fas fa-redo'></i></a>");
-    $(".bet-amount").css('visibility', 'hidden');
+    $(".buttons").replaceWith("<a href='index.html'><i class='fas fa-sync-alt'></i></a>");
+		if(localStorage.getItem("highScore") < document.getElementById("cash").innerHTML){	
+			localStorage["highScore"] = document.getElementById("cash").innerHTML;
+		}
+    $(".bet-amount").replaceWith("High Score: £" + localStorage.getItem("highScore"))
+    $(".next-card").css('visibility', 'hidden');
 		$("#status").html("Game Over");
 		return -1;
-		//fillCardsArray();
+
 	}
 	console.log(cardsArray);
 	while(cardsArray.length > 1){
@@ -174,20 +186,24 @@ function nCard() {
 
   if (option == "h" && newCardNumber > randomCardNumber) {
     status.innerHTML = "YOU WIN!";
+    document.getElementById("last-bet").innerHTML = betAmount;
     updateResult("win");
     winCount++;
     clear();
   } else if (option == "l" && newCardNumber < randomCardNumber) {
     status.innerHTML = "YOU WIN!";
+    document.getElementById("last-bet").innerHTML = betAmount;
     updateResult("win");
     winCount++;
     clear();
   } else if (newCardNumber == randomCardNumber) {
     status.innerHTML = "DRAW";
+    document.getElementById("last-bet").innerHTML = betAmount;
     updateResult("draw");
     clear();
   } else {
     status.innerHTML = "YOU LOST!";
+    document.getElementById("last-bet").innerHTML = betAmount;
     updateResult("lose");
     lossCount++;
     clear();
@@ -229,12 +245,12 @@ function loOption() {
 }
 
 function updateBet(bet){
-  if(walletAmount >= betAmount + bet){
+  if(walletAmount >= betAmount + bet && 1001 > betAmount + bet){
     betAmount = betAmount + bet;
     document.getElementById("bet").innerHTML = betAmount;
   }
   else{
-    swal("ERROR!", "Your bet exceeds your wallet amount!", "error")
+    swal("ERROR!", "The maximum bet is £1000!", "error")
   }
 }
 
@@ -253,6 +269,10 @@ function updateResult(key){
   document.getElementById("cash").innerHTML = walletAmount;
   document.getElementById("bet").innerHTML = betAmount;
 }
+
+document.getElementsByClassName("repeat-bet")[0].addEventListener("click",function(){
+  updateBet(parseInt(document.getElementById("last-bet").innerHTML));
+});
 
 document.getElementsByClassName("bet-twenty")[0].addEventListener("click",function(){
   updateBet(20);
