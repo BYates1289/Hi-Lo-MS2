@@ -31,7 +31,6 @@ body{
     width: 100px;
     height: 60px;
     cursor: pointer;
-    color: #000;
     border: none;
     border-radius: 10px;
     margin: 5px;
@@ -42,6 +41,8 @@ body{
 }
 .chips img {
     cursor: pointer;
+    width: 150px;
+    height: 110px;
 }
 h1, #status {
     font-size: 4em;

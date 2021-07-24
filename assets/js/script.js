@@ -132,7 +132,7 @@ function nCard() {
 		if(localStorage.getItem("highScore") < document.getElementById("cash").innerHTML){	
 			localStorage["highScore"] = document.getElementById("cash").innerHTML;
 		}
-    $(".bet-amount").replaceWith("High Score: £" + localStorage.getItem("highScore"))
+    $(".bet-amount").replaceWith("High Score: £" + localStorage.getItem("highScore"));
     $(".next-card").css('visibility', 'hidden');
 		$("#status").html("Game Over");
 		return -1;
@@ -250,24 +250,8 @@ function updateBet(bet){
     document.getElementById("bet").innerHTML = betAmount;
   }
   else{
-    swal("ERROR!", "The maximum bet is £1000!", "error")
+    swal("ERROR!", "The maximum bet is £1000!", "error");
   }
-}
-
-function updateResult(key){
-  if(key == "win"){
-    walletAmount = walletAmount + betAmount;
-    betAmount = 0;
-  }
-  else if(key == "draw"){
-    betAmount = 0;
-  }
-  else if(key == "lose"){
-    walletAmount = walletAmount - betAmount;
-    betAmount = 0;
-  }
-  document.getElementById("cash").innerHTML = walletAmount;
-  document.getElementById("bet").innerHTML = betAmount;
 }
 
 document.getElementsByClassName("repeat-bet")[0].addEventListener("click",function(){
