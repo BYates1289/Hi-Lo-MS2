@@ -4,7 +4,7 @@
     font-family: 'Croissant One', cursive;
 }
 body{
-    background-image: url("/assets/img/bg.jpg");
+    background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@ h1, #status {
     float: right;     
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("/assets/img/cards/red_back.png");
+    background-image: url("../img/cards/red_back.png");
 }
 .card {
     background-size: contain;
