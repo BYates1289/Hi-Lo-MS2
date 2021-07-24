@@ -4,7 +4,7 @@
     font-family: 'Croissant One', cursive;
 }
 body{
-    background-image: url("./img/bg.jpg");
+    background-image: url("/assets/img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@ body{
     width: 370px;
     height: 235px;
 }
-.buttons button {
+._btn {
     width: 100px;
     height: 60px;
     cursor: pointer;
@@ -39,7 +39,7 @@ body{
 .chips {
     padding: 10px;
 }
-.chips img {
+.bet-twenty, .bet-fifty, .bet-hundred {
     cursor: pointer;
     width: 150px;
     height: 110px;
@@ -57,7 +57,7 @@ h1, #status {
     float: right;     
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./img/cards/red_back.png");
+    background-image: url("/assets/img/cards/red_back.png");
 }
 .card {
     background-size: contain;
@@ -138,7 +138,7 @@ h1, #status {
         font-size: 0.7em;
         margin-top: 10px;
     }
-    .bet-twenty, .bet-fifty, .bet-hundred {
+    .chips img {
         height: 52px;
         width: 71px;
         margin-top: -10px;
