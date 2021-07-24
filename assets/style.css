@@ -90,6 +90,19 @@ h1, #status {
 .swal-text {
     font-family: 'Roboto', sans-serif !important;
 }
+/* Code taken from Hover.css - https://ianlunn.github.io/Hover/ */
+.hvr-grow {
+    display:inline-block;
+    vertical-align:middle;
+    -webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);
+    box-shadow:0 0 1px rgba(0,0,0,0);
+    -webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;
+    transition-property:transform
+}
+.hvr-grow:active,.hvr-grow:focus,.hvr-grow:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1)}
+/* End of Hover.css
+
 /*Media Queries*/
 @media only screen and (max-width: 280px) {
     #logo {
