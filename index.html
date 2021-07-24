@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/hover-min.css">
     <link rel="stylesheet" href="assets/style.css">
     <title>Hi-Lo Card Game</title>
@@ -27,33 +21,37 @@
                     <div class="card" id="card"></div>
                 </div>                    
                 <div class="deck">
-                    <div class="prev-card"></div>
+                    <div class="next-card"></div>
                 </div>    
             </div>
         </div>
-    </div>        
-    <div class="container">
-        <div class="buttons">
-            <a onclick="loOption()" i class="fas fa-arrow-circle-down hvr-grow"></i></a>
-            <a onclick="hiOption()" i class="fas fa-arrow-circle-up hvr-grow"></i></a>           
-        </div>
     </div>
-    <div class="container">
-        <div class="betting">
-            <div class="bet-text">
-                <div class="wallet">Wallet Amount: £<span id="cash">1000</span></div>
-                <div class="bet-amount mb-3">Bet Amount: <span id="bet">0</span></div>
-            </div>
-            <div class="chips">
-                <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" width="150px" height="110px">
-                <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" width="150px" height="110px">
-                <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" width="150px" height="110px">
+    <div class="wrapper">
+        <div class="container">
+            <div class="buttons">
+                <button onclick="loOption()" i class="hvr-grow">Lower</button>
+                <button onclick="hiOption()" i class="hvr-grow">Higher</button>
+                <button class="repeat-bet hvr-grow">Repeat Bet</button>
             </div>
         </div>
+        <div class="container">
+            <div class="betting">
+                <div class="bet-text">
+                    <div class="wallet">Wallet Amount: £<span id="cash">1000</span></div>
+                    <div class="bet-amount mb-3">Bet Amount: £<span id="bet">0</span></div>
+                </div>
+                
+                <div id="last_bet" style="display: none;">0</div>
+                <div class="chips">
+                    <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" width="150px" height="110px">
+                    <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" width="150px" height="110px">
+                    <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" width="150px" height="110px">
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/script.js"></script>
 </body>
 </html>

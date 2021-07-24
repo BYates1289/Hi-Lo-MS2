@@ -234,7 +234,7 @@ function updateBet(bet){
     document.getElementById("bet").innerHTML = betAmount;
   }
   else{
-    alert("Error! The total bet is exceeding your wallet amount!");
+    swal("ERROR!", "Your bet exceeds your wallet amount!", "error")
   }
 }
 

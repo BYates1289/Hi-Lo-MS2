@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Bungee Inline', cursive;    
+    font-family: 'Croissant One', cursive;  
 }
 body{
     background-image: url("./img/bg.jpg");
@@ -14,28 +14,35 @@ body{
     text-align: center;
     color: #fff;
     height: 100vh;
-    width: 100vw;
+    overflow-y: hidden;
+    -webkit-tap-highlight-color:transparent;
 }
 #logo {
     width: 125px;
     height: 125px;
 }
+.wrapper {
+    margin-top: 15px;
+}
 .stack {
     width: 370px;
     height: 235px;
 }
-
-.buttons {
-    font-size: 55px;
-    text-shadow: 2px 2px 2px #000;
-    margin-top: 0.1em
+.buttons button {
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+}
+.chips img {
+    cursor: pointer;
 }
 .status{
     font-size: 4em;
+    letter-spacing: 0.05em;
     font-weight: 700;
     text-shadow: 2px 2px 2px #000;
 }
-.prev-card {
+.next-card {
     width: 150px;
     height: 229px;
     float: right;     
@@ -60,12 +67,11 @@ body{
 }
 .bet-text {
     letter-spacing: 0.05em;
+    margin-top: 15px;
 }
-.fa-redo {
-    margin: 10px 0 10px 0;
-    color: #fff;
-    text-shadow: 2px 2px 2px #000;
-    font-size: 2em;
+
+.swal-text {
+    font-family: 'Roboto', sans-serif !important;
 }
 /*Media Queries*/
 @media only screen and (max-width: 280px) {
@@ -81,7 +87,7 @@ body{
         width: 110px;
         height: 170px;
     }
-    .prev-card {
+    .next-card {
         width: 110px;
         height: 170px;
     }
@@ -118,7 +124,7 @@ body{
         width: 110px;
         height: 170px;
     }
-    .prev-card {
+    .next-card {
         width: 110px;
         height: 170px;
     }
@@ -155,7 +161,7 @@ body{
         width: 110px;
         height: 170px;
     }
-    .prev-card {
+    .next-card {
         width: 110px;
         height: 170px;
     }
@@ -209,7 +215,7 @@ body{
         height: 382px;
         width: 560px;
     }
-    .card, .prev-card {
+    .card, .next-card {
         width: 250px;
         height: 382px;
     }
