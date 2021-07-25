@@ -1,3 +1,7 @@
+$(document).ready(function(){
+  $("#rules").modal('show');
+});
+
 const card = document.getElementById("card");
 const status = document.getElementById("status");
 

@@ -4,7 +4,6 @@
     font-family: 'Croissant One', cursive;
 }
 body {
-    background-color: #006600;
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,6 +19,12 @@ body {
 #logo {
     width: 125px;
     height: 125px;
+}
+.modal-body, li {
+    color: #000;
+    font-size: 1em;
+    list-style-type: none;
+
 }
 .wrapper {
     margin-top: 15px;
@@ -64,6 +69,9 @@ h1, #status {
     background-color: transparent !important;
     border: none !important;
 }
+.buttons {
+    margin: 15px 0 15px 0;
+}
 .betting {
     font-size: 1.5em;
     text-shadow: 2px 2px 2px #000;
@@ -71,13 +79,12 @@ h1, #status {
 }
 .bet-text {
     letter-spacing: 0.05em;
-    margin-top: 15px;
+    margin: 15px 0 15px 0;
 }
 .fa-sync-alt {
-    margin: 10px 0 10px 0;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
-    font-size: 3em;
+    font-size: 2.5em;
     transition: transform .7s ease-in-out;
 }
 .fa-sync-alt:hover {
@@ -104,6 +111,9 @@ h1, #status {
     #logo {
         height: 50px;
         width: 50px;
+    }
+    .modal-body, li {
+        font-size: 0.9em;
     }
     h1, #status {
         font-size: 1.5em;
@@ -141,6 +151,9 @@ h1, #status {
     #logo {
         height: 50px;
         width: 50px;
+    }
+    .modal-body, li {
+        font-size: 0.9em;
     }
     .h1, #status {
         font-size: 1.7em;
@@ -182,6 +195,9 @@ h1, #status {
         height: 50px;
         width: 50px;
     }
+    .modal-body, li {
+        font-size: 0.9em;
+    }
     h1, #status {
         font-size: 2em;
         height: 50px;
@@ -221,6 +237,9 @@ h1, #status {
     #logo {
         height: 60px;
         width: 60px;
+    }
+    .modal-body, li {
+        font-size: 0.9em;
     }
     .h1, #status {
         font-size: 2em;
@@ -285,11 +304,11 @@ h1, #status {
     .status {
         height: 110px;
     }
-    .bet-text {
-        margin-top: 10px;
+    .modal-body, li {
+        font-size: 1.2em;
     }
     .wrapper {
-        margin-top: 40px;
+        margin-top: 30px;
     }
     .stack {
         height: 382px;
@@ -303,8 +322,11 @@ h1, #status {
         font-size: 1.5em;
     }
     .btn-secondary {
-        font-size: 20px;
+        font-size: 30px;
         margin: 5px;
+    }
+    .fa-sync-alt {
+        font-size: 4em;
     }
 }
 @media only screen and (min-width: 1025px) {
