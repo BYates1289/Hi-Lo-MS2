@@ -15,12 +15,9 @@ let cardsArray = [];
 let newCardNumber,newSuit,newCard;
 
 if(!(localStorage.getItem("highScore"))){	
-	// Store
 	localStorage.setItem("highScore", 0);
 } else {
-// Retrieve
 console.log(localStorage.getItem("highScore"));
-//document.getElementById("high_score").innerHTML = localStorage.getItem("highScore");
 }
 
 
