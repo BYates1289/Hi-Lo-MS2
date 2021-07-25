@@ -17,7 +17,6 @@ let newCardNumber,newSuit,newCard;
 if(!(localStorage.getItem("highScore"))){	
 	localStorage.setItem("highScore", 0);
 } else {
-console.log(localStorage.getItem("highScore"));
 }
 
 
@@ -113,7 +112,6 @@ function loadCards() {
     default:
       break;
   }
-  console.log(randomCard + randomSuit);
   card.style.backgroundImage = "url(assets/img/cards/" + randomCard + randomSuit + ".png";
 
 	let index = cardsArray.indexOf(randomCard + randomSuit);
@@ -244,6 +242,10 @@ function loOption() {
   option = "l";
   nCard();
 }
+function playSound(){
+  let sound = new Audio("assets/sound/deal.mp3");
+  sound.play();
+  }
 
 function updateBet(bet){
   if(walletAmount >= betAmount + bet && 1001 > betAmount + bet){
