@@ -21,10 +21,13 @@ body {
     height: 125px;
 }
 .modal-body, li {
-    color: #000;
+    color: rgba(0,0,0,.65);
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     list-style-type: none;
-
+}
+.modal-header, .modal-footer {
+    border: none;
 }
 .wrapper {
     margin-top: 15px;
@@ -35,6 +38,7 @@ body {
 }
 .btn-secondary {
     background-color: #909090 !important;
+    border: none;
 }
 .chips {
     padding: 10px;
@@ -91,7 +95,7 @@ h1, #status {
     transform: rotate(180deg);
 }
 .swal-text {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 /* Code taken from Hover.css - https://ianlunn.github.io/Hover/ */
 .hvr-grow {
