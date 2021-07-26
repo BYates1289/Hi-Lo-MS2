@@ -1,5 +1,5 @@
 <h1><strong>Hi-Lo Card Game</strong></h1>
-<img src="" style="max-width: 100%">Image Placeholder<br><br>
+<img src="./assets/img/AmIResponsive.jpg" style="max-width: 100%">
 
 <p>View the live project <a href="https://byates1289.github.io/Hi-Lo-MS2">here.</a></p>
 
@@ -230,7 +230,8 @@
 </ul>
 <h3>Media</h3>
 <ul>
-    <li>All Images were created by the developer.</li>
+    <li>The Logo used was downloaded from <a href="https://www.pikpng.com/transpng/iRmJwow/">here</a></li>
+    <li>Playing cards were downloaded from <a href="http://acbl.mybigcommerce.com/52-playing-cards/">here</a></li>
 </ul>
 <h3>Acknowledgements</h3>
 <ul>
