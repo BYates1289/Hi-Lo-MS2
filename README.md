@@ -11,29 +11,22 @@
         <ul>
             <li>First Time Visitor Goals</li>
                 <ol type="a">
-                    <li>As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.</li>
-                    <li>As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.</li>
-                    <li>As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.</li>
+                    <li>As a First Time Visitor, I want to understand how to play the card game Hi-Lo.</li>
+                    <li>As a First Time Visitor, I want to play a game which I find enjoyable and simple to play.</li>
+                    <li>As a First Time Visitor, I want to play a game with an element of risk</li>
                 </ol>
             <li>Returning Visitor Goals</li>
                 <ol type="a">
-                    <li>As a Returning Visitor, I want to find information about coding challenges.</li>
-                    <li>As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.</li>
-                    <li>As a Returning Visitor, I want to find community links.</li>
-                </ol>
-            <li>Frequent User Goals</li>
-                <ol type="a">
-                    <li>As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.</li>
-                    <li>As a Frequent User, I want to check to see if there are any new blog posts.</li>
-                    <li>As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.</li>
-                </ol>
-            </li>
+                    <li>As a Returning Visitor, check my previous high-score.</li>
+                    <li>As a Returning Visitor, I want to try and better my previous high-score.</li>
+                    <li>As a Returning Visitor, I want to feel more confident taking more calculated risks.</li>
+                </ol>                       
         </ul>
     <li>Design</li>
         <ul>
             <li>Colour Scheme</li>
                 <ul>
-                    <li>The two main colours used are Code Insititue red, and white.</li>
+                    <li>I've tried to theme the game as if it was being played at a Poker table at a Casino. There are a few variations of Green, Red and White which are largely from the images I've used in this project.</li>                         
                 </ul>
             <li>Typography</li>
                 <ul>
@@ -88,7 +81,7 @@
         </ul>
     <li>Git</li>
         <ul>
-            <li>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+            <li>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>  
         </ul>
     <li>GitHub</li>
         <ul>
@@ -139,7 +132,7 @@
                 <ol type="a">
                     <li>The navigation bar clearly highlights the "Contact Us" Page.</li>
                     <li>Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.</li>
-                    <li>The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.</li>
+                    <li>The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.</li>  
                     <li>Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.</li>
                     <li>The email button is set up to automatically open up your email app and autofill there email address in the "To" section.</li>
                 </ol>
