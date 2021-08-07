@@ -1,6 +1,6 @@
 <h1><strong>Hi-Lo Card Game</strong></h1>
 <img src="./assets/img/AmIResponsive.jpg" style="max-width: 100%">
-
+<br>
 <p>View the live project <a href="https://byates1289.github.io/Hi-Lo-MS2">here.</a></p>
 
 <p>My milestone 2 project for Code Institute is a Higher or Lower card game in which you have to decide whether the next card will be higher or lower than the last. There is betting feature which is used to increase your wallet total, which is what is used to generate your score at the end of the game. It is designed to be simplistic and engaging.</p>
@@ -17,9 +17,8 @@
                 </ol>
             <li>Returning Visitor Goals</li>
                 <ol type="a">
-                    <li>As a Returning Visitor, check my previous high-score.</li>
                     <li>As a Returning Visitor, I want to try and better my previous high-score.</li>
-                    <li>As a Returning Visitor, I want to feel more confident taking more calculated risks.</li>
+                    <li>As a Returning Visitor, I want to feel confident taking more calculated risks.</li>
                 </ol>                       
         </ul>
     <li>Design</li>
@@ -38,8 +37,8 @@
                 </ul>
             <li>Wireframes</li>
                 <ul>
-                    <li>Home Page Wireframe - View</li>
-                    <li>Mobile Wireframe - View</li>
+                    <li>Home Page Wireframe - <a href="/">View</a></li>
+                    <li>Mobile Wireframe - <a href="/">View</a></li>
                 </ul>
             </li>
         </ul>
@@ -59,44 +58,49 @@
 </ul>
 <h3>Frameworks, Libraries & Programs Used</h3>
 <ol>
-    <li>Bootstrap 4</li>
+    <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4</a></li>
         <ul>
             <li>Bootstrap was used to assist with the responsiveness and styling of the website.</li>
         </ul>
-    <li>Hover.css</li>
+    <li><a href="https://ianlunn.github.io/Hover/">Hover.css</a></li>
         <ul>
-            <li>Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.</li>
+            <li>Hover.css was used on the Higher, Lower and Repeat Bet buttons and also the £20, £50 and £100 betting chips.</li>
         </ul>
-    <li>Google Fonts</li>
+    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
         <ul>
-            <li>Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.</li>
+            <li>Google Fonts was used to import the 'Croissant One' and 'Roboto' fonts into my project. 'Croissant One' was used for the majority of body text, whilst 'Roboto' was used for the rules modal and alert popup.</li>
         </ul>
-    <li>Font Awesome</li>
+    <li><a href="https://fontawesome.com/">Font Awesome</a></li>
         <ul>
-            <li>Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.</li>
+            <li>Font Awesome was used to display a restart icon once the game has ended.</li>
         </ul>
-    <li>jQuery
+    <li><a href="https://jquery.com/">jQuery</a></li>
         <ul>
-            <li>jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.</li>
+            <li>jQuery is a dependency of the Bootstrap framework and helps with responsive design. </li>
         </ul>
-    <li>Git</li>
+    <li><a href="https://sweetalert2.github.io/">SweetAlert2</a></li>
+        <ul>
+            <li>SweetAlert2 was used to style the standard JavaScript alert popup.</li>
+        </ul>
+    <li><a href="https://git-scm.com/">Git</a></li>
         <ul>
             <li>Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>  
         </ul>
-    <li>GitHub</li>
+    <li><a href="https://github.com/">GitHub</a></li>
         <ul>
             <li>GitHub is used to store the projects code after being pushed from Git.</li>
         </ul>
-    <li>Balsamiq</li>
+    <li><a href="https://balsamiq.com/">Balsamiq</a></li>
         <ul>
             <li>Balsamiq was used to create the wireframes during the design process.</li>
         </ul>
 </ol>
 <h2>Testing</h2>
-<p>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.</p>
+<p>The W3C Markup Validator, W3C CSS Validator and JSHint services were used to validate code to ensure there were no syntax errors in the project.</p>
 <ul>
-    <li>W3C Markup Validator - Results</li>
-    <li>W3C CSS Validator - Results</li>
+    <li>W3C Markup Validator - <a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/docs/HTML.pdf">Results</a></li>
+    <li>W3C CSS Validator - <a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/docs/CSS.pdf">Results</a></li>
+    <li>JSHint - <a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/docs/JSHint.pdf">Results</a></li>
 </ul>
 <h3>Testing User Stories from User Experience (UX) Section</h3>
 <ul>
