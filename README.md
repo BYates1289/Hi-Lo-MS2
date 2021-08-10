@@ -29,16 +29,15 @@
                 </ul>
             <li>Typography</li>
                 <ul>
-                    <li>The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.</li>
+                    <li>The Croissant One font is the main font used throughout this project with Cursive as the fallback font in case for any reason the font isn't being imported into the site correctly. The Roboto font is used within the Rules modal and SweetAlert2 popup.</li>
                 </ul>
             <li>Imagery</li>
                 <ul>
-                    <li>Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.</li>
+                    <li>The images used really make the project feel authentic. The playing cards (especially the Royals), look particularly great! The background is a subtle image displaying the cards suits and goes well with the Poker table theme I was going for.</li>
                 </ul>
             <li>Wireframes</li>
                 <ul>
-                    <li>Home Page Wireframe - <a href="/">View</a></li>
-                    <li>Mobile Wireframe - <a href="/">View</a></li>
+                    <li>Project Wireframe - <a href="/">View</a></li>
                 </ul>
             </li>
         </ul>
@@ -47,7 +46,8 @@
 <h2>Features</h2>
 <ul>
     <li>Responsive on all device sizes</li>
-    <li>Interactive elements</li>
+    <li>Interactivity for users. Higher or Lower buttons aswell as a betting feature.</li>
+    <li>Saving of High-score</li>
 </ul>
 <h2>Technologies Used</h2>
 <h3>Languages Used</h3>
@@ -106,23 +106,22 @@
 <ul>
     <li><strong>First Time Visitor Goals</strong></li>
         <ol type="I">
-            <li>As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.</li>
+            <li>As a First Time Visitor, I want to find out how to play the card game Hi-Lo.</li>
                 <ol type="a">
-                    <li>Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.</li>
-                    <li>The main points are made immediately with the hero image.</li>
-                    <li>The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.</li>
+                    <li>Upon entering the site, users are automatically greeted with a clean Rules modal, which specifies the rules of the game and how to place a bet.</li>
+                    <li></li>
+                    <li></li>
                 </ol>
-            <li>As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.</li>
+            <li>As a First Time Visitor, I want to be able to enjoy the card game of Hi-Lo without a complicated interface.</li>
                 <ol type="a">
-                    <li>The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.</li>
-                    <li>At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.</li>
-                    <li>On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.</li>
+                    <li>The site was designed to have a minimalistic look which would not feel too confusing for users.</li>
+                    <li>All things displayed within the project all serve a purpose and are easily identifiable as to what their job is.</li>
+                    <li>The authentic colour scheme and card images used ensure the game feels more real and enjoyable.</li>
                 </ol>
-            <li>As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.</li>
+            <li>As a First Time Visitor, I want to play a game of Hi-Lo with an element of risk.</li>
                 <ol type="a">
-                    <li>Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.</li>
-                    <li>The user can also scroll to the bottom of any page on the site to locate social media links in the footer.</li>
-                    <li>At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.</li>
+                    <li>The betting feature was implemented for exactly this reason. If you are confident with your selection, you can increase your betting stake up to the maximum of £1000.</li>
+                    <li>Users can make use of the Repeat Bet button after a large stake for an increased risk. You could use this throughout the game instead changing your bet amount each turn.</li>
                 </ol>
         </ol>
     <li>Returning Visitor Goals</li>
