@@ -236,7 +236,7 @@
 > Unpacking objects: 100% (10/10), done.</pre></code></div>
 </ol>
 <p>Click <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop">here</a> to retrieve pictures for some of the buttons and more detailed explanations of the above process.</p>
-<h2 id="credits">Credits<h2>
+<h2 id="credits">Credits</h2>
 <h3 id="code">Code</h3>
 <ul>
     <li>Bootstrap 4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.</li>
