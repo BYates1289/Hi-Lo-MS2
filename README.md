@@ -1,5 +1,5 @@
 <h1><strong>Hi-Lo Card Game</strong></h1>
-<img src="./assets/img/AmIResponsive.jpg" style="max-width: 100%">
+<img src="./assets/img/testing/AmIResponsive.jpg" style="max-width: 100%">
 <h1>Product Description</h1>
 <p>My milestone 2 project for Code Institute is a Higher or Lower card game in which you have to decide whether the next card will be higher or lower than the last. There is betting feature which is used to increase your wallet total, which is what is used to generate your score at the end of the game. It is designed to be simplistic and engaging.</p>
 <p>View the live project <a href="https://byates1289.github.io/Hi-Lo-MS2">here.</a></p>
@@ -24,6 +24,8 @@
             <li><a href="#code-verification">Code Verification</a></li>
             <li><a href="#lighthouse">Lighthouse</a></li>
             <li><a href="#speed-test">Speed Test</a></li>
+            <li><a href="#cross-browser">Cross-Browser</a></li>
+            <li><a href="#responsive">Responsive Testing</a></li>
             <li><a href="#testing-user-stories">Testing User Stories</a></li>
         </ul>
     <li><a href="#further-testing">Further Testing</a></li>
@@ -61,7 +63,7 @@
         <ul>
             <li id="colour-scheme">Colour Scheme</li>
                 <ul>
-                    <li>I've tried to theme the game as if it was being played at a Poker table at a Casino. There are a few variations of Green, Red and White which are largely from the images I've used in this project.</li>                         
+                    <li>I've tried to theme the game as if it were being played at a Poker table at a casino. I think the colours used in this project compliment this theme.</li>                         
                 </ul>
             <li id ="typography">Typography</li>
                 <ul>
@@ -77,12 +79,19 @@
                 </ul>
             </li>
         </ul>
+    <li id="target-audience">Target Audience</li>
+        <ul>
+            <li>Teenagers to adults</li>
+            <li>Users with an interest in card games</li>
+            <li>Users with an interest in gambling</li>
+        </ul>
     </li>
 </ul>
 <h2 id="features">Features</h2>
 <ul>
     <li>Responsive on all device sizes</li>
     <li>Interactivity for users. Higher or Lower buttons aswell as a betting feature.</li>
+    <li>Rules modal that pops up on page load</li>
     <li>Saving of High-score</li>
 </ul>
 <h2 id="technologies-used">Technologies Used</h2>
@@ -153,12 +162,35 @@
 </ul>
 <h3 id="lighthouse">Lighthouse</h3>
 <p>Performance of the site was analysed by <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>. Here are the results.</p>
-<img src="./assets/img/Lighthouse.JPG">
+<img src="./assets/img/testing/Lighthouse.JPG">
 <h3 id="speed-test">Speed Test</h3>
 <p>Site speed test was performed by <a href="https://gtmetrix.com/">GTMetrix</a>. Here are the results.</p>
-<img src="./assets/img/PageLoadTime.JPG">
+<img src="./assets/img/testing/PageLoadTime.JPG">
 <p>Prior to the above, I was informed in a previous test that my images were not optimised and that should compress them. I used <a href="https://tinypng.com/">TinyPNG</a> for this, which resulted in 60% better performance.</p>
-
+<h3 id="cross-browser">Cross Browser Testing</h3>
+<p>This project was tested with all major browsers and displayed as expected. Results can be seen here.</p>
+<ul>
+    <li><a href="#">Google Chrome</a></li>
+    <li><a href="#">Firefox</a></li>
+    <li><a href="#">Safari</a></li>
+    <li><a href="#">Opera</a></li>
+    <li><a href="#">Microsoft Edge</a></li>
+    <li><a href="#">Tor</a></li>
+</ul>
+<p>I did experience UI issues using Internet Explorer 11. As can be seen <a href="#">here</a>. Given a little more time, I would have researched a fix.</p>
+<h3 id="responsive">Responsive Testing</h3>
+<p>Responsive testing was carried with Chrome Dev Tools and <a href="https://www.browserstack.com/">BrowserStack</a>. The results for some popular devices can be seen below.</p>
+<ul>
+    <li><a href="#">iPhone X</a></li>
+    <li><a href="#">iPhone 8 Plus</a></li>
+    <li><a href="#">iPhone SE</a></li>
+    <li><a href="#">Pixel 3 XL</a></li>
+    <li><a href="#">Galaxy S9 Plus</a></li>
+    <li><a href="#">Galaxy Note 10</a></li>
+    <li><a href="#">iPad Pro</a></li>
+    <li><a href="#">iPad Mini</a></li>
+    <li><a href="#">Galaxy Tab S4</a></li>
+</ul>
 <h3 id="testing-user-stories">Testing User Stories from User Experience (UX) Section</h3>
 <ul>
     <li>First Time Visitor Goals</li>
@@ -190,7 +222,6 @@
 </ul>
 <h3 id="further-testing">Further Testing</h3>
 <ul>
-    <li>The site was tested on all modern browsers such as Google Chrome, Microsoft Edge, Safari and Opera and experienced no issues.</li>
     <li>The website was viewed on a variety of devices such as Desktop, Laptop, Surface Pro 6, iPad Air 2 & iPhone X.</li>
     <li>I did a large amount of offline testing using VS Code when creating this project and it's content.</li>
     <li>Family members were asked to review the site and to point out any bugs and/or user experience issues. One feedback I did get from my 7 year old son, was that it's unfair that it's not real money! :grin:</li>
@@ -198,6 +229,7 @@
 <h3 id="known-bugs">Known Bugs</h3>
 <ul>
     <li>Starting a new game refreshes the page causing the Rules modal to reappear.</li>
+    <li>Site does not display correctly within Internet Explorer 11.</li>
 </ul>
 <h2 id="deployment">Deployment</h2>
 <h3 id="github-pages">GitHub Pages</h3>
