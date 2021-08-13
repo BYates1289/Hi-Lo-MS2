@@ -170,26 +170,26 @@
 <h3 id="cross-browser">Cross Browser Testing</h3>
 <p>This project was tested with all major browsers and displayed as expected. Results can be seen here.</p>
 <ul>
-    <li><a href="#">Google Chrome</a></li>
-    <li><a href="#">Firefox</a></li>
-    <li><a href="#">Safari</a></li>
-    <li><a href="#">Opera</a></li>
-    <li><a href="#">Microsoft Edge</a></li>
-    <li><a href="#">Tor</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Chrome.JPG">Google Chrome</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Firefox.JPG">Firefox</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Safari.JPG">Safari</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Opera.JPG">Opera</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Edge.JPG">Microsoft Edge</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Tor.jpg">Tor</a></li>
 </ul>
 <p>I did experience UI issues using Internet Explorer 11. As can be seen <a href="#">here</a>. Given a little more time, I would have researched a fix.</p>
 <h3 id="responsive">Responsive Testing</h3>
 <p>Responsive testing was carried with Chrome Dev Tools and <a href="https://www.browserstack.com/">BrowserStack</a>. The results for some popular devices can be seen below.</p>
 <ul>
-    <li><a href="#">iPhone X</a></li>
-    <li><a href="#">iPhone 8 Plus</a></li>
-    <li><a href="#">iPhone SE</a></li>
-    <li><a href="#">Pixel 3 XL</a></li>
-    <li><a href="#">Galaxy S9 Plus</a></li>
-    <li><a href="#">Galaxy Note 10</a></li>
-    <li><a href="#">iPad Pro</a></li>
-    <li><a href="#">iPad Mini</a></li>
-    <li><a href="#">Galaxy Tab S4</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPhoneX.JPG">iPhone X</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPhone%208%20Plus.JPG">iPhone 8 Plus</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPhone%20SE.JPG">iPhone SE</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Pixel%203%20XL.JPG">Pixel 3 XL</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Galaxy%20S9%20Plus.JPG">Galaxy S9 Plus</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Galaxy%20Note%2010.JPG">Galaxy Note 10</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPad%20Pro.JPG">iPad Pro</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPad%20Mini.JPG">iPad Mini</a></li>
+    <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/Galaxy%20Tab%20S4.JPG">Galaxy Tab S4</a></li>
 </ul>
 <h3 id="testing-user-stories">Testing User Stories from User Experience (UX) Section</h3>
 <ul>
@@ -246,7 +246,7 @@
 <p>By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...</p>
 <ol>
     <li>Log in to GitHub and locate the GitHub Repository.</li>
-    <li>At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+    <li>At the top of the Repository, just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
     <li>You should now have a copy of the original repository in your GitHub account.</li>
 </ol>
 <h3 id="making-local-clone">Making a Local Clone</h3>
@@ -281,9 +281,10 @@
 </ul>
 <h3 id="media">Media</h3>
 <ul>
-    <li>The Logo used was downloaded from <a href="https://www.pikpng.com/transpng/iRmJwow/">here</a></li>
-    <li>Playing cards were downloaded from <a href="http://acbl.mybigcommerce.com/52-playing-cards/">here</a></li>
-    <li>Background image was downloaded from <a href="https://www.shutterstock.com/image-vector/poker-table-background-green-color-vector-1645872547">Shutterstock</a>.
+    <li>The Logo was downloaded from <a href="https://www.pikpng.com/transpng/iRmJwow/">https://www.pikpng.com</a></li>
+    <li>Playing cards were downloaded from <a href="http://acbl.mybigcommerce.com/52-playing-cards/">http://acbl.mybigcommerce.com</a></li>
+    <li>Poker chips were downloaded from <a href="http://pngimg.com/images/sport/poker/">http://pngimg.com</a></li>
+    <li>Background image was downloaded from <a href="https://www.shutterstock.com/image-vector/poker-table-background-green-color-vector-1645872547">https://www.shutterstock.com</a>.
 </ul>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <ul>
