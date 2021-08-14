@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Higher or Lower card game with betting feature.">    
-    <link rel="icon" type="image/png" href="assets/img/favicon/favicon.png"/>
+    <meta name="description" content="Higher or Lower card game with betting feature.">
+    <link rel="icon" type="image/png" href="assets/img/favicon/favicon.png" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto&display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Hi-Lo Card Game</title>
-</head>
-<body class="text-center" onload="loadCards()">
-  
-    <a href="index.html"><img src="assets/img/logo.png" class="mt-3" id="logo" alt="cards logo"></a>
-
+  </head>
+  <body class="text-center" onload="loadCards()">
+    <a href="index.html">
+      <img src="assets/img/logo.png" class="mt-3" id="logo" alt="cards logo">
+    </a>
     <div class="modal fade" id="rules">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span><i class="fas fa-times-circle"></i></span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <h2><u>Rules</u></h2>
-                    <ul>
-                        <li>A random card is dealt from the deck.</li>
-                        <li>Choose whether the next card will be higher or lower by clicking the Higher or Lower buttons.</li>
-                        <li>Place a bet depending on how confident you are. (Maximum stake of £1000).</li>
-                        <li>If you guess incorrectly, you will lose your stake. If you guess correctly, your bet amount will be added to your wallet.</li>
-                        <li>Try to earn as much in your wallet total as possible.</li>
-                        <li>The game ends once all cards have been dealt.</li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary mx-auto hvr-grow" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span>
+                <i class="fas fa-times-circle"></i>
+              </span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h2>
+              <u>Rules</u>
+            </h2>
+            <ul>
+              <li>A random card is dealt from the deck.</li>
+              <li>Choose whether the next card will be higher or lower by clicking the Higher or Lower buttons.</li>
+              <li>Place a bet depending on how confident you are. (Maximum stake of £1000).</li>
+              <li>If you guess incorrectly, you will lose your stake. If you guess correctly, your bet amount will be added to your wallet.</li>
+              <li>Try to earn as much in your wallet total as possible.</li>
+              <li>The game ends once all cards have been dealt.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary mx-auto hvr-grow" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
-
-    <h1 class="status" id="status">Hi-Lo Card Game!</h1>   
+    <h1 class="status" id="status">Hi-Lo Card Game!</h1>
     <div class="container stack mt-3">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="new-card">
-                    <div class="card" id="card"></div>
-                </div>                    
-                <div class="deck">
-                    <div class="next-card"></div>
-                </div>    
-            </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="new-card">
+            <div class="card" id="card"></div>
+          </div>
+          <div class="deck">
+            <div class="next-card"></div>
+          </div>
         </div>
+      </div>
     </div>
     <div class="wrapper">
-        <div class="container">
-            <div class="buttons">
-                <button onclick="loOption(), playSound()" class="btn btn-secondary lower hvr-grow">Lower</button>
-                <button onclick="hiOption(), playSound()" class="btn btn-secondary higher hvr-grow">Higher</button>
-                <button class="btn btn-secondary repeat-bet hvr-grow">Repeat Bet</button>
-            </div>
+      <div class="container">
+        <div class="buttons">
+          <button onclick="loOption(), playSound()" class="btn btn-secondary lower hvr-grow">Lower</button>
+          <button onclick="hiOption(), playSound()" class="btn btn-secondary higher hvr-grow">Higher</button>
+          <button class="btn btn-secondary repeat-bet hvr-grow">Repeat Bet</button>
         </div>
-        <div class="container">
-            <div class="betting">
-                <div class="bet-text">
-                    <div class="wallet">Wallet Total: £<span id="cash">1000</span></div>
-                    <div class="bet-amount">Bet Total: £<span id="bet">0</span></div>
-                </div>
-                
-                <div id="last-bet" style="display: none;">0</div>
-                <div class="chips">
-                    <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" alt="20 betting chip">
-                    <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" alt="50 betting chip">
-                    <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" alt="100 betting chip">
-                </div>
+      </div>
+      <div class="container">
+        <div class="betting">
+          <div class="bet-text">
+            <div class="wallet">Wallet Total: £ <span id="cash">1000</span>
             </div>
+            <div class="bet-amount">Bet Total: £ <span id="bet">0</span>
+            </div>
+          </div>
+          <div id="last-bet" style="display: none;">0</div>
+          <div class="chips">
+            <img src="assets/img/chips/20.png" class="bet-twenty hvr-grow" alt="20 betting chip">
+            <img src="assets/img/chips/50.png" class="bet-fifty hvr-grow" alt="50 betting chip">
+            <img src="assets/img/chips/100.png" class="bet-hundred hvr-grow" alt="100 betting chip">
+          </div>
         </div>
+      </div>
     </div>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha512-ANkGm5vSmtDaoFA/NB1nVJzOKOiI4a/9GipFtkpMG8Rg2Bz8R1GFf5kfL0+z0lcv2X/KZRugwrAlVTAgmxgvIg==" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
