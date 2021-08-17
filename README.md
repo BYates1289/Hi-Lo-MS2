@@ -1,7 +1,7 @@
 <h1><strong>Hi-Lo Card Game</strong></h1>
 <img src="./assets/img/testing/AmIResponsive.jpg" style="max-width: 100%">
 <h1>Product Description</h1>
-<p>My milestone 2 project for Code Institute is a Higher or Lower card game in which you have to decide whether the next card will be higher or lower than the last. There is betting feature which is used to increase your wallet total, which is what is used to generate your score at the end of the game. It is designed to be simplistic and engaging.</p>
+<p>My Milestone 2 Project for Code Institute is a Higher or Lower card game in which you have to decide whether the next card will be higher or lower than the last. There is betting feature which is used to increase your Wallet Total, which is what is used as your score at the end of the game. It is designed to be simplistic and engaging.</p>
 <p>View the live project <a href="https://byates1289.github.io/Hi-Lo-MS2">here.</a></p>
 <h1>Table of Contents</h1>
 <ul>
@@ -72,7 +72,7 @@
                 </ul>
             <li id="imagery">Imagery</li>
                 <ul>
-                    <li>The images used really make the project feel authentic. The playing cards (especially the Royals), look particularly great! The background is a subtle image displaying the cards suits and goes well with the Poker table theme I was going for.</li>
+                    <li>The images used really make the project feel authentic. The background is a subtle image displaying the cards suits and goes well with the Poker table theme I was going for.</li>
                 </ul>
             <li id="wireframes">Wireframes</li>
                 <ul>
@@ -82,7 +82,7 @@
         </ul>
     <li id="target-audience">Target Audience</li>
         <ul>
-            <li>Teenagers to adults.</li>
+            <li>Teenagers to Adults.</li>
             <li>Users with an interest in card games.</li>
             <li>Users with an interest in gambling.</li>
         </ul>
@@ -91,7 +91,8 @@
 <h2 id="features">Features</h2>
 <ul>
     <li>Responsive on all device sizes.</li>
-    <li>Interactivity for users. Higher or Lower buttons aswell as a betting feature.</li>
+    <li>Interactivity for users.</li>
+    <li>Betting feature.</li>
     <li>Rules modal that pops up on page load.</li>
     <li>Saving of High-score into Local Storage.</li>
 </ul>
@@ -180,7 +181,7 @@
 </ul>
 <p>I did experience UI issues using Internet Explorer 11. As can be seen <a href="#">here</a>. Given a little more time, I would have researched a fix.</p>
 <h3 id="responsive">Responsive Testing</h3>
-<p>Responsive testing was carried with Chrome Dev Tools and <a href="https://www.browserstack.com/">BrowserStack</a>. The results for some popular devices can be seen below.</p>
+<p>Responsive testing was carried out with Chrome Dev Tools and <a href="https://www.browserstack.com/">BrowserStack</a>. The results for some popular devices can be seen below.</p>
 <ul>
     <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPhoneX.JPG">iPhone X</a></li>
     <li><a href="https://github.com/BYates1289/Hi-Lo-MS2/blob/master/assets/img/testing/iPhone%208%20Plus.JPG">iPhone 8 Plus</a></li>
@@ -224,14 +225,14 @@
 <h3 id="further-testing">Further Testing</h3>
 <ul>
     <li>The website was viewed on a variety of devices such as Desktop, Laptop, Surface Pro 6, iPad Air 2 & iPhone X.</li>
-    <li>I did a large amount of offline testing using VS Code when creating this project and it's content.</li>
+    <li>I did a large amount of offline testing using VS Code when creating this project.</li>
     <li>Family members were asked to review the site and to point out any bugs and/or user experience issues. One feedback I did get from my 7 year old son, was that it is unfair that it is not real money! :grin:</li>
 </ul>
 <h3 id="features-to-implement">Features Left To Implement</h3>
 <ul>
     <li>I will improve UX by adding a flip animation to the next card.</li>
     <li>I will add a card countdown so that users can see how many cards are left to be dealt.</li>
-    <li>I would like to add a global high score leaderboard, so users can compare their high-scores.</li>
+    <li>I would eventually like to add a global high score leaderboard, so users can compare their high-scores.</li>
     <li>Ensure compatibility for IE11.</li>
 </ul>
 <h3 id="known-bugs">Known Bugs</h3>
@@ -279,8 +280,8 @@
 <h2 id="credits">Credits</h2>
 <h3 id="code">Code</h3>
 <ul>
-    <li>Bootstrap 4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.</li>
-    <li>SweetAlert2 for their beautifully styled alert popups.</li>
+    <li>Bootstrap 4: Bootstrap Library used throughout the project to make site responsive using the Bootstrap Grid System.</li>
+    <li>SweetAlert2 for their styled alert popups.</li>
     <li>Hoverr.css for the <i>hvr-grow</i> style for my interactive buttons.</li>
 </ul>
 <h3 id="content">Content</h3>
@@ -293,6 +294,7 @@
     <li>Playing cards were downloaded from <a href="http://acbl.mybigcommerce.com/52-playing-cards/">http://acbl.mybigcommerce.com</a></li>
     <li>Poker chips were downloaded from <a href="http://pngimg.com/images/sport/poker/">http://pngimg.com</a></li>
     <li>Background image was downloaded from <a href="https://www.shutterstock.com/image-vector/poker-table-background-green-color-vector-1645872547">https://www.shutterstock.com</a>.
+    <li>The card deal audio was downloaded from <a href="https://freesound.org/people/egomassive/sounds/536784/">https://freesound.org</a>, which I then converted to MP3 using <a href="https://cloudconvert.com/ogg-to-mp3">https://cloudconvert.com</a>.</li>
 </ul>
 <h3 id="acknowledgements">Acknowledgements</h3>
 <ul>
